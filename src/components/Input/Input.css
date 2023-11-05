@@ -1,0 +1,28 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.contain label {
+    display: flex;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #4b4b4b;
+}
+
+.contain input {
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    outline: none;
+    padding: 8px 15x;
+    color: #000;
+
+}
+.contain input:hover {
+    border-color: #ddd;
+}
+.contain input:focus {
+    border-color: #9900ff;
+}
